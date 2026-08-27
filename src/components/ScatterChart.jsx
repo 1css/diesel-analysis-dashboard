@@ -38,6 +38,14 @@ export default function ScatterChart({ data = [], height = 550 }) {
       nameLocation: "middle",
 
       nameGap: 45,
+
+      nameTextStyle: {
+        color: "red",
+      },
+
+      axisLabel: {
+        color: "red",
+      },
     },
 
     yAxis: {
@@ -48,6 +56,14 @@ export default function ScatterChart({ data = [], height = 550 }) {
       nameLocation: "middle",
 
       nameGap: 65,
+
+      nameTextStyle: {
+        color: "red",
+      },
+
+      axisLabel: {
+        color: "red",
+      },
     },
 
     dataZoom: [

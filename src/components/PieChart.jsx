@@ -25,7 +25,23 @@ export default function PieChart({ data = [], height = 450 }) {
         radius: ["45%", "72%"],
 
         label: {
-          formatter: "{b}\n{d}%",
+          formatter: "{name|{b}}\n{pct|{d}%}",
+
+          rich: {
+            name: {
+              color: "red",
+
+              fontWeight: "bold",
+
+              lineHeight: 16,
+            },
+
+            pct: {
+              color: "#c5d3e0",
+
+              lineHeight: 14,
+            },
+          },
         },
 
         data: data.map((item) => ({

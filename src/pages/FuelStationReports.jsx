@@ -71,12 +71,18 @@ export default function FuelStationReports({ rows }) {
 
       nameGap: 70,
 
+      nameTextStyle: {
+        color: "red",
+      },
+
       data: stations.map((item) => item.name),
 
       axisLabel: {
         interval: 0,
 
         rotate: 30,
+
+        color: "red",
       },
     },
 
@@ -89,6 +95,14 @@ export default function FuelStationReports({ rows }) {
         nameLocation: "middle",
 
         nameGap: 55,
+
+        nameTextStyle: {
+          color: "red",
+        },
+
+        axisLabel: {
+          color: "red",
+        },
       },
 
       {
@@ -99,6 +113,14 @@ export default function FuelStationReports({ rows }) {
         nameLocation: "middle",
 
         nameGap: 65,
+
+        nameTextStyle: {
+          color: "red",
+        },
+
+        axisLabel: {
+          color: "red",
+        },
       },
     ],
 

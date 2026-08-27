@@ -75,6 +75,14 @@ export default function CancellationReports({ rows, view = "issued-by" }) {
 
                 nameGap: 55,
 
+                nameTextStyle: {
+                  color: "red",
+                },
+
+                axisLabel: {
+                  color: "red",
+                },
+
                 data: monthly.map((item) => item.name),
               },
 
@@ -87,8 +95,14 @@ export default function CancellationReports({ rows, view = "issued-by" }) {
 
                 nameGap: 60,
 
+                nameTextStyle: {
+                  color: "red",
+                },
+
                 axisLabel: {
                   formatter: "{value}%",
+
+                  color: "red",
                 },
               },
 

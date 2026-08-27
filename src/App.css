@@ -108,7 +108,8 @@ button {
 
   margin-top: 4px;
 
-  color: #71849b;
+  /* color: #71849b; */
+  color: #3ec312;
 
   font-size: 9px;
 }
@@ -312,7 +313,8 @@ button {
 
   margin-top: 3px;
 
-  color: #6b8098;
+  /* color: #6b8098; */
+  color: #fbe90c;
 
   font-size: 10px;
 }
@@ -422,7 +424,8 @@ button {
 .page-title p {
   margin: 0;
 
-  color: #6e829b;
+  /* color: #6e829b; */
+  color: #fbe90c;
 
   font-size: 11px;
 }
@@ -453,9 +456,9 @@ button {
 }
 
 .kpi span {
-  color: #71859d;
+  color: #135cb6;
 
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .kpi strong {
@@ -516,7 +519,8 @@ button {
 .chart-card-heading p {
   margin: 4px 0 0;
 
-  color: #657a92;
+  /* color: #657a92; */
+  color: #fbe90c;
 
   font-size: 10px;
 
